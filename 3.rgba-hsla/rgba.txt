@@ -1,0 +1,7 @@
+Tips 
+1.Rgba
+->menggunakan nilai untuk mengganti warna bukan image
+
+2.Digunakan Jika
+->ingin melakukan setting opacity di dalam child element div yang mempunyai properti opacity
+

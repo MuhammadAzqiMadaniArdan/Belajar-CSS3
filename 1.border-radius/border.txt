@@ -1,0 +1,6 @@
+!Important
+->Menggunakan Background-repeat:no-repeat;
+
+1.Overflow
+->digunakan sebagai menghilangkan sesuatu yang keluar dari flow garis
+->overflow:hidden

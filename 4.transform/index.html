@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin:50px auto 0;
+            transition: 1s;
+        }
+        .kotak:hover{
+            transform: scale(1.5);
+        }
+        .putar:hover{
+            transform: rotate(45deg);
+        }
+        .linear:hover{
+            transform: rotateX(90deg);
+        }
+        .balik1:hover{
+            transform: rotateX(180deg);
+        }
+        .balik2:hover{
+            transform: rotateY(180deg);
+        }
+        .kuren:hover{
+            transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+        }
+        .miringKa:hover{
+            transform: skew(30deg);
+        }
+        .miringKi:hover{
+            transform: skewY(30deg);
+        }
+        .geserKa:hover{
+            transform: translate(50px);
+        }
+        .geserKi:hover{
+            transform: translate(-50px);
+        }
+        .geserKaba:hover{
+            transform: translate(50px,120px);
+        }
+        .puBer:hover{
+            transform: scale(3) rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Perbesar</p>
+    <div class="putar"></div>
+    <p>Putar</p>
+    <div class="linear"></div>
+    <p>Linear</p>
+    <div class="balik1"></div>
+    <p>Balik Depan</p>
+    <div class="balik2"></div>
+    <p>Balik Samping</p>
+    <div class="kuren"></div>
+    <p>Kuren</p>
+    <div class="miringKa"></div>
+    <p>Miring Kanan</p>
+    <div class="miringKi"></div>
+    <p>Miring Kiri</p>
+    <div class="geserKa"></div>
+    <p>Geser Kanan</p>
+    <div class="geserKi"></div>
+    <p>Geser Kiri</p>
+    <div class="geserKaba"></div>
+    <p>Geser Kanan Bawah</p>
+    <div class="puBer"></div>
+    <p>Puber (Putar Besar)</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nam dignissimos pariatur sed quos incidunt consectetur quidem voluptas fuga sapiente illum provident iusto reiciendis veritatis, repellendus vero, obcaecati facere omnis!</p>
+</body>
+</html>

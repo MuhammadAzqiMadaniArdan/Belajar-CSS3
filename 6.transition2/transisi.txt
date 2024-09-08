@@ -1,0 +1,33 @@
+1.non-animatable properties
+->font-family
+->display
+->position
+
+2.animatable properties
+->background-color
+->background-position
+->background-size
+->border
+->color
+->filter
+->font-size
+->line-height
+->all arah (top , bottom left, right)
+->margin, padding
+->width, height
+->opacity
+->transform
+->word-spacing
+->letter-spacing
+
+3.Timing Function (fungsi timer)
+->ease
+->ease-in
+=>awal pelan akhir cepat
+
+->ease-out
+=>
+
+->ease-in-out
+->linear
+->cubic-bezier()

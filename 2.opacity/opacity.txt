@@ -1,0 +1,3 @@
+Tips 
+1.HJika gunakan . di css terkai koma maka bisa diganti dengan titik saja contoh :
+0.5 => .5

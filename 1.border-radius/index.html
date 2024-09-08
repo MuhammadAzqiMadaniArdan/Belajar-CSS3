@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        body{
+            display: block;
+            
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: salmon;
+            border-radius: 0 50% 50% 50%;
+            text-align:center;
+            line-height:300px;
+            overflow: hidden;
+            margin: 20px;
+        }
+        .bgi{
+            background-image: url(img/1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .square{
+            background-color: white;
+            border-radius: 10%;
+            border: 10px solid gray;
+        }
+        .leaf{
+            background-color: white;
+            border-radius: 50% 0 50% 0;
+            border: 10px solid red;
+            
+        }
+        .circle{
+            background-color: white;
+            border-radius: 50% ;
+            border: 10px solid green;
+        }
+        .busurA{
+            background-color: white;
+            border-radius: 50% ;
+            border: 10px solid blue;
+            
+        }
+        .busurB{
+            background-color: white;
+            border-radius: 100% ;
+            border: 10px solid blue;
+            
+        }
+        .letter{
+            background-color: white;
+            border-radius: 0% 50% 50% 0% ;
+            border: 10px solid orange;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>Hello World !</div>
+    <div class="bgi">Hello World !</div>
+    <div >
+        <img src="img/1.jpeg">
+    </div>
+        <div class="square"></div>
+        <div class="leaf"></div>
+        <div class="circle"></div>
+        <div class="busurA"></div>
+        <div class="busurB"></div>
+        <div class="letter"></div>
+</body>
+</html>

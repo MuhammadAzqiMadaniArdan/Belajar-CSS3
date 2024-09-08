@@ -1,0 +1,12 @@
+1.Scale
+->memperbesar dan memperkecil 
+2.Rotate
+->memutar
+3.Skew
+-> membuat condong atau miring
+4.translate
+->mengubah posisi
+
+5.deg
+->menngukur sudut
+ 
